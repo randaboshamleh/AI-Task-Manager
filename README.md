@@ -128,19 +128,3 @@ The backend stores data in local JSON files:
 - `backend/users.db.json`
 
 These files are ignored by Git because they contain local app data. The server creates them automatically when needed.
-
-## Notes
-
-- This project is designed for learning, portfolio use, and small local demos.
-- Passwords are currently stored in plain text in the local JSON file. For production, use password hashing and a real database.
-- The AI features are rule-based and local, not connected to an external AI service yet.
-
-## Future Improvements
-
-- Connect AI features to an LLM API
-- Add password hashing
-- Store tasks per user
-- Add categories or labels
-- Add reminders and notifications
-- Add calendar view
-- Add deployment configuration
