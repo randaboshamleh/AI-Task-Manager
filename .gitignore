@@ -1,0 +1,10 @@
+node_modules/
+dist/
+.vscode/
+.env
+.env.*
+*.log
+backend/tasks.db.json
+backend/users.db.json
+backend/__pycache__/
+.pytest_cache/
